@@ -84,3 +84,41 @@ IDE: Visual Studio Code
 
 Controle de versão: Git + GitHub
 
+🧾 Sistema de Controle de Despesas
+📘 Versão 0.0.3
+
+Status: Funcionalidade de despesas implementada
+Data: 09/11/2025
+📋 Descrição da Entrega
+
+Nesta versão, o sistema evoluiu de um menu simulado para um sistema funcional.
+Agora é possível:
+
+✅ Cadastrar novas despesas
+✅ Marcar uma despesa como paga
+✅ Listar despesas pendentes e pagas
+
+🧩 Estrutura Atual do Projeto
+b4t1_trabalho/
+├── src/
+│   └── app/
+│       ├── Main.java
+│       ├── Despesa.java
+│       ├── Pagamento.java
+│       ├── TipoDespesa.java
+│       └── Usuario.java
+└── docs/
+    └── README.md
+
+
+🧠 Próximos Passos
+Implementar persistência em arquivo texto (salvar e carregar despesas)
+Criar relatórios e filtros (por tipo de despesa ou status)
+Adicionar tratamento de erros e validações
+Aplicar herança, polimorfismo e interface conforme o enunciado da Etapa 2
+
+| Versão | Descrição                                              | Data       |
+| ------ | ------------------------------------------------------ | ---------- |
+| 0.0.1  | Estrutura inicial criada e menu simulado com `println` | 03/11/2025 |
+| 0.0.2  | Estrutura de classes criada e menu funcional           | 07/11/2025 |
+| 0.0.3  | Cadastro e listagem de despesas, marcação de pagamento | 09/11/2025 |
