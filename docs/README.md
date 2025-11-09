@@ -1,34 +1,3 @@
-# Sistema de Controle de Despesas
-
-## 📘 Versão 0.0.1
-**Status:** Estrutura inicial criada  
-**Data:** (coloque a data de hoje)
-
-### 📋 Descrição da Entrega
-Primeira entrega do projeto:  
-- Repositório criado no GitHub  
-- Estrutura de pastas configurada (`src/app` e `docs`)  
-- Classe `Main` criada com menu principal simulado via `println`  
-
-### 🧩 Estrutura Atual
-b4t1_trabalho/
-├── src/
-│ └── app/
-│ └── Main.java
-└── docs/
-└── README.md
-### 🧠 Próximos Passos
-- Implementar cadastro de despesas
-- Implementar cadastro de usuários
-- Criar persistência em arquivos de texto
-
----
-
-### 📄 Changelog
-| Versão | Descrição | Data |
-|--------|------------|------|
-| 0.0.1  | Repositório criado e menu principal com println | (26/10/2025) |
-
 # Sistema de Controle de Despesas - Etapa B4T01.1
 
 ## 🧾 Versão 0.0.1
@@ -59,3 +28,20 @@ b4t1_trabalho/
 - Criar classes para Despesa, Pagamento, TipoDespesa e Usuário  
 - Aplicar herança, polimorfismo e interfaces conforme enunciado  
 
+---
+
+## 🧾 Versão 0.0.2
+**Descrição:** Estrutura de classes criada e menu principal funcional.  
+**Status:** ✅ Concluído  
+
+### 📄 Changelog da Entrega
+| Etapa | Versão | Descrição | Data |
+|--------|---------|------------|------|
+| B4T01.2 | 0.0.2 | Estrutura de classes criada (Despesa, Pagamento, TipoDespesa, Usuário) e menu funcional | *(09/11/2025)* |
+
+---
+
+### 🧠 Próximos Passos
+- Implementar salvamento de dados em arquivos `.txt`  
+- Adicionar funcionalidades reais de cadastro e listagem  
+- Aplicar herança, polimorfismo e interface Pagável  
